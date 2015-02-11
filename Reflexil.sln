@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICSharpCode.NRefactory.Refl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflexil.ILSpy", "Plugins\Reflexil.ILSpy\Reflexil.ILSpy.csproj", "{6518DC9E-6FDE-4CCC-888E-7A773646FE10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrongNameRemover", "ThirdParty\StrongNameRemover\StrongNameRemover.csproj", "{D1BF0E23-C35D-4C9E-9AD1-F35331ACBE8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,12 @@ Global
 		{6518DC9E-6FDE-4CCC-888E-7A773646FE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6518DC9E-6FDE-4CCC-888E-7A773646FE10}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6518DC9E-6FDE-4CCC-888E-7A773646FE10}.Release|x86.ActiveCfg = Release|Any CPU
+		{D1BF0E23-C35D-4C9E-9AD1-F35331ACBE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BF0E23-C35D-4C9E-9AD1-F35331ACBE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BF0E23-C35D-4C9E-9AD1-F35331ACBE8C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D1BF0E23-C35D-4C9E-9AD1-F35331ACBE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BF0E23-C35D-4C9E-9AD1-F35331ACBE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BF0E23-C35D-4C9E-9AD1-F35331ACBE8C}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
