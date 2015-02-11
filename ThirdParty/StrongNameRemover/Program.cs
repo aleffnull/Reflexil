@@ -14,7 +14,14 @@ namespace StrongNameRemover
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new StrongNameRemoverForm {FormBorderStyle = FormBorderStyle.Sizable, ShowInTaskbar = true});
+			var form = new StrongNameRemoverForm
+			{
+				FormBorderStyle = FormBorderStyle.Sizable,
+				ShowInTaskbar = true,
+				MaximizeBox = true,
+				MinimizeBox = true
+			};
+			Application.Run(form);
 		}
 	}
 }
