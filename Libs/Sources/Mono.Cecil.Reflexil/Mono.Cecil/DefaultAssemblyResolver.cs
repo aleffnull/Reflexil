@@ -40,6 +40,11 @@ namespace Mono.Cecil {
 			cache = new Dictionary<string, AssemblyDefinition> (StringComparer.Ordinal);
 		}
 
+		public DefaultAssemblyResolver(string searchDirectory) : this()
+		{
+			AddSearchDirectory(searchDirectory);
+		}
+
 		public override AssemblyDefinition Resolve (AssemblyNameReference name)
 		{
 			if (name == null)

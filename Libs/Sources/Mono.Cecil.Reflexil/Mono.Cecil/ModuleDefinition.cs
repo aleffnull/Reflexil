@@ -311,7 +311,7 @@ namespace Mono.Cecil {
 		public IAssemblyResolver AssemblyResolver {
 			get {
 				if (assembly_resolver == null)
-					Interlocked.CompareExchange (ref assembly_resolver, new DefaultAssemblyResolver (), null);
+					Interlocked.CompareExchange (ref assembly_resolver, new DefaultAssemblyResolver (Path.GetDirectoryName(Image.FileName)), null);
 
 				return assembly_resolver;
 			}
